@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Axios from 'axios';
 import AuthorLists from '../components/AuthorList';
+import { Card } from 'reactstrap'
 import '../../src/TableBook.css'
 
 class Authors extends Component {
@@ -35,9 +36,12 @@ class Authors extends Component {
         return (
             <div>
                 <center>
-                    <h1>Author</h1>
-                    <AuthorLists databAuth={databAuth} />
+                    <Card>
+                        <h1>Author</h1>
+                        <AuthorLists databAuth={databAuth} />
+                    </Card>
                 </center>
+
             </div>
         )
     }

@@ -13,3 +13,7 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  div.card {
+    padding: 30px;
+  }
