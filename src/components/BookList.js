@@ -17,7 +17,7 @@ class BookLists extends Component {
             <tr>
               <td>{value.id}</td>
               <td>{value.judul}</td>
-              <td>{value.author.name}</td>
+              <td>{value.id_author}</td>
               <td>{value.created_at}</td>
               <td>{value.updated_at}</td>
             </tr>
